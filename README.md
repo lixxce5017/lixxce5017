@@ -6,7 +6,6 @@
 **기간**: 2024.11 ~ 2025.1  
 **Stack**: Spring Boot, Java, MySQL, ProxySQL,Redis, docker,AWS (ECS, RDS, S3), Pinpoint, GitHub Actions ,nginx,lua script
 
-
 ### 주요 기여
 
 - **장소 추천 시스템 최적화**: 위치 기반 정보와 사용자 선호도를 반영하는 알고리즘을 설계 및  294.63ms에서 172.63ms로 성능 상향 및 레디스를 이용한 캐싱
