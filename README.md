@@ -20,8 +20,11 @@
 ### [프로젝트 이름 3](링크)
 > 프로젝트 설명 (사용한 기술, 기능, 성과 등)
 
-## 📈 GitHub 통계
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&hide_title=true&count_private=true&hide=prs)
+## 🏆 백준 프로필
+![백준 프로필 배지](https://img.solved.ac/profile/sh5017.svg)
+
+[백준 프로필 링크](https://www.acmicpc.net/user/sh5017)
+
 
 ## 💬 연락처
 - **이메일**: [your-email@example.com](mailto:your-email@example.com)
@@ -29,9 +32,4 @@
 - **Twitter**: [@yourusername](https://twitter.com/yourusername)
 - **Website**: [your-website.com](https://your-website.com)
 
----
-
-### 🎯 제가 좋아하는 것들:
-- **취미**: 코딩, 독서, 여행
-- **좋아하는 도서**: "책 제목", "책 제목"
-- **좋아하는 영화/TV 프로그램**: "영화 제목", "TV 프로그램 제목"
+--
