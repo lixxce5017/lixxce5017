@@ -11,7 +11,7 @@
 > 프로젝트 설명 (사용한 기술, 기능, 성과 등)
 
 ## 🏆 백준 프로필
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=백준아이디)](https://solved.ac/백준아이디/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sh5017)](https://solved.ac/sh5017/)
 
 ## 💻 기술 스택
 - **프로그래밍 언어**: Java, Python, JavaScript, TypeScript
