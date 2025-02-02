@@ -32,10 +32,6 @@
 
 
 
-### [프로젝트 이름 2](링크)
-> 프로젝트 설명 (사용한 기술, 기능, 성과 등)
-
-
 ## 🏆 백준 프로필
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sh5017)](https://solved.ac/sh5017/)
 
