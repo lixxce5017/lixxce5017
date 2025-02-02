@@ -21,8 +21,5 @@
 
 
 ## 💬 연락처
-- **이메일**: [your-email@example.com](lixxce5017@gmail.com)
-- **blog**: [링크]([https://www.linkedin.com/in/your-profile](https://velog.io/@lixxce/posts))
-
-
+- **이메일**: [lixxce5017@gmail.com](lixxce5017@gmail.com)
 --
