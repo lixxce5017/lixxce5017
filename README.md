@@ -3,6 +3,9 @@
 
 **댕댕어디가**는 반려동물과 함께 외출할 때의 불편함을 줄이고, 더 많은 활동을 즐길 수 있도록 돕는 서비스입니다. 웹사이트를 통해 반려견과 동반 가능한 장소를 쉽게 검색하고, 다양한 추천 기능을 통해 맞춤형 장소 정보를 제공합니다. 또한, 실시간 **땅따먹기 시스템**으로 사용자들에게 재미와 보상을 제공합니다!
 
+**기간**: 2024.11 ~ 2025.1  
+**Stack**: Spring Boot, Java, MySQL, ProxySQL,Redis, docker,AWS (ECS, RDS, S3), Pinpoint, GitHub Actions ,nginx,lua script
+
 
 ### 주요 기여
 
