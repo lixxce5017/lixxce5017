@@ -21,9 +21,8 @@
 > 프로젝트 설명 (사용한 기술, 기능, 성과 등)
 
 ## 🏆 백준 프로필
-![백준 프로필 배지](https://img.solved.ac/profile/sh5017.svg)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=백준아이디)](https://solved.ac/백준아이디/)
 
-[백준 프로필 링크](https://www.acmicpc.net/user/sh5017)
 
 
 ## 💬 연락처
