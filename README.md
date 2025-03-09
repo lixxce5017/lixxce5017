@@ -29,8 +29,10 @@
     - DB 커넥션 풀과 스레드 풀을 재설계하여 효율성 극대화  
 
 🔗 [프로젝트 링크](https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-)  
+
 🔗 [블로그 링크:반려동물 동반 시설 플랫폼 유저 맞춤 장소추천 구현](https://velog.io/@lixxce/%EB%8C%95%EB%8C%95%EC%96%B4%EB%94%94%EA%B0%80-%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC-%EB%8F%99%EB%B0%98-%EC%8B%9C%EC%84%A4-%ED%94%8C%EB%9E%AB%ED%8F%BC-%EC%9C%A0%EC%A0%80-%EB%A7%9E%EC%B6%A4-%EC%9E%A5%EC%86%8C%EC%B6%94%EC%B2%9C-%EA%B5%AC%ED%98%84)
-[블로그 링크:CI/CD 파이프라인 구축 및 무중단 배포](https://velog.io/@lixxce/%EB%8C%95%EB%8C%95%EC%96%B4%EB%94%94%EA%B0%80%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1%EA%B3%BC-%EB%B3%B4%EC%95%88%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-AWS-%EC%84%9C%EB%B2%84-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC-%EC%A0%84%EB%9E%B5)
+
+🔗[블로그 링크:CI/CD 파이프라인 구축 및 무중단 배포](https://velog.io/@lixxce/%EB%8C%95%EB%8C%95%EC%96%B4%EB%94%94%EA%B0%80%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1%EA%B3%BC-%EB%B3%B4%EC%95%88%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-AWS-%EC%84%9C%EB%B2%84-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC-%EC%A0%84%EB%9E%B5)
 
 
 ## 🏆 백준 프로필
