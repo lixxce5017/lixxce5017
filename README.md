@@ -19,7 +19,7 @@
   - OAuth2 인증 시스템을 구현
   - redis를 이용한 리프레시 토큰 블랙리스트 관리
   - Nginx와 Lua를 활용한 쿠키 암호화로 보안을 강화
-- **보안성 및 트래픽을 고려한 AWS 서버 구성**
+- **보안성 및 고가용성을 고려한 AWS 서버 구성**
   - 리버스 프록시 서버 nginx로 보안성을 고려한 rate limits 및 connection limits 설정,
   - GoAccess를 통한 실시간 사용자 통계 분석,
   - Proxy SQL을 통한 RDS read/write 분산처리로 대규모 트래픽 및 고가용성을 고려한 서버 구성
@@ -34,7 +34,7 @@
 
 🔗[블로그 링크:CI/CD 파이프라인 구축 및 무중단 배포](https://velog.io/@lixxce/%EB%8C%95%EB%8C%95%EC%96%B4%EB%94%94%EA%B0%80%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1%EA%B3%BC-%EB%B3%B4%EC%95%88%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-AWS-%EC%84%9C%EB%B2%84-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC-%EC%A0%84%EB%9E%B5)
 
-
+🔗[블로그 링크:보안성 및 고가용성을 고려한 AWS 서버 구성](https://velog.io/@lixxce/%EB%8C%95%EB%8C%95%EC%96%B4%EB%94%94%EA%B0%80%EB%B3%B4%EC%95%88%EC%84%B1%EA%B3%BC-%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1%EC%9D%84-%EA%B3%A0%EB%A0%A4%ED%95%9C-aws-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%84%B1)
 ## 🏆 백준 프로필
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sh5017)](https://solved.ac/sh5017/)
 
