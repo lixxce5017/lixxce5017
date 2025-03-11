@@ -24,8 +24,6 @@
   - Proxy SQL을 통한 RDS read/write 분산처리로 트래픽 & 고가용성 &보안성을 고려한 서버 구성
 - **DB 커넥션 풀 최적화**  
     -  Proxy SQL을 이용하여 DB 커넥션 풀 최적화   
-- **리뷰 금칙어 로직**
-  - 아호 코라식 알고리즘을 이용한 리뷰 금칙어 로직 설계 및 구현
 
 🔗 [프로젝트 링크](https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-)  
 
