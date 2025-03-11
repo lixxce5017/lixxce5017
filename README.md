@@ -21,8 +21,7 @@
   - Nginx와 Lua를 활용한 쿠키 암호화로 보안을 강화
 - **보안성 및 고가용성을 고려한 AWS 서버 구성**
   - 리버스 프록시 서버 nginx로 보안성을 고려한 rate limits 및 connection limits 설정,
-  - GoAccess를 통한 실시간 사용자 통계 분석,
-  - Proxy SQL을 통한 RDS read/write 분산처리로 대규모 트래픽 및 고가용성을 고려한 서버 구성
+  - Proxy SQL을 통한 RDS read/write 분산처리로 트래픽 & 고가용성 &보안성을 고려한 서버 구성
 - **DB 커넥션 풀 최적화**  
     -  Proxy SQL을 이용하여 DB 커넥션 풀 최적화   
 - **리뷰 금칙어 로직**
