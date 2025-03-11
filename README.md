@@ -20,8 +20,8 @@
   - redis를 이용한 리프레시 토큰 블랙리스트 관리
   - Nginx와 Lua를 활용한 쿠키 암호화로 보안을 강화
 - **보안성 및 고가용성을 고려한 AWS 서버 구성**
-  - 리버스 프록시 서버 nginx로 보안성을 고려한 rate limits 및 connection limits 설정
-  - 공격적인 User-Agent 로그인 실패,Fail2Ban,GeoIP 기반 국가별 접속 등 설정으로
+  - 리버스 프록시 서버 nginx로 보안성을 고려한 rate limits 및 connection limits 설정,
+    <br/>공격적인 User-Agent,로그인 실패 Fail2Ban,GeoIP 기반 국가별 접속 등 설정으로
     <br/>블랙리스트 관리 및 영구차단으로 보안성 강화
   - Proxy SQL을 통한 RDS read/write 분산처리로 트래픽 & 고가용성 &보안성을 고려한 서버 구성
 - **DB 커넥션 풀 최적화**  
