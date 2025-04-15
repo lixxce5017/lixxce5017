@@ -69,6 +69,16 @@
 - Redis를 이용한 리프레시 토큰 블랙리스트 관리
 - Nginx와 Lua 스크립트를 활용한 쿠키 암호화 및 보안 강화
 
+### 아키텍쳐
+  **AWS 서버 구성**
+  ![compact_eks-based_aws_architecture](https://github.com/user-attachments/assets/cfe6d847-699a-45c2-8751-2489874fd60c)
+
+
+
+  **배포 파이프라인**
+  ![cd_with_github_actions_+_ecr_+_eks_+_argo_rollouts_+_eso](https://github.com/user-attachments/assets/ee4e1714-9e3f-4b0f-a575-bbdb3d646fed)
+
+  
 🔗 [프로젝트 링크](https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-)  
 
 ## 🏆 백준 프로필
