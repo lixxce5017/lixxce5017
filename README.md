@@ -19,9 +19,10 @@
 - S3/DynamoDB 기반 Terraform 원격 상태 관리 및 잠금 구성
 - GitHub Actions 기반 Terraform CI/CD 파이프라인 구축 (PR 시 Plan 검증, 환경별 Apply
 - GitHub Actions를 활용한 애플리케이션 CI/CD 파이프라인 구축
-- 컨테이너 배포 환경의 Amazon EKS 전환 및 CI/CD 기반 Blue-Green 무중단 배포 자동화 구축 (Docker, EKS, Nginx Ingress, GitHub Actions)
+- 컨테이너 배포 환경의 Amazon EKS 전환 및 CI/CD 기반 카나리 무중단 배포 및 롤백 자동화 구축 (Docker, EKS, Nginx Ingress, GitHub Actions)
 - 리버스 프록시 서버 Nginx로 보안성을 고려한 rate limits 및 connection limits 설정
 - Proxy SQL을 통한 RDS read/write 분산처리로 대규모 트래픽 및 고가용성 고려
+- Prometheus + Grafana 기반 실시간 모니터링 구축
 
 **시큐리티 & OAuth & 쿠키 관리**:
 - OAuth2 인증 시스템 구현
