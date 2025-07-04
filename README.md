@@ -1,4 +1,66 @@
 
+
+##  프로젝트
+#  댕댕어디가 
+
+**댕댕어디가**는 반려동물과 함께 외출할 때의 불편함을 줄이고, 더 많은 활동을 즐길 수 있도록 돕는 서비스입니다. 웹사이트를 통해 반려견과 동반 가능한 장소를 쉽게 검색하고, 다양한 추천 기능을 통해 맞춤형 장소 정보를 제공합니다. 또한, 실시간 **땅따먹기 시스템**으로 사용자들에게 재미와 보상을 제공합니다!
+
+**기간**: 2024.11 ~ 2025.3
+
+### 주요 기여
+**사용자 맞춤 장소 추천 시스템 최적화**
+
+- 위치 기반 정보와 사용자 선호도를 반영하는 추천 로직 설계
+- 성능 최적화: 294.63ms에서 172.63ms로 약 **41.42%** 성능 개선
+- Redis를 활용한 위치 기반 캐싱
+
+**AWS 서버 구성, 고가용성 및 인프라 자동화(IaC):**
+
+- Terraform을 활용한 AWS 인프라(VPC, EKS, ALB, RDS, ElastiCache 등) 코드 기반 구축 및 관리
+- GitHub Actions 기반 Terraform CI/CD 파이프라인 구축 (PR 시 Plan 검증, 환경별 Apply)
+- GitHub Actions를 활용한 애플리케이션 CI/CD 파이프라인 구축
+- 컨테이너 배포 환경의 Amazon EKS 전환 및 CI/CD 기반 카나리 무중단 배포 및 롤백 자동화 구축 (Docker, EKS, Nginx Ingress, GitHub Actions)
+- Prometheus + Grafana 기반 실시간 모니터링 구축
+
+**시큐리티 & OAuth & 쿠키 관리**:
+- OAuth2 인증 시스템 구현
+- Redis를 이용한 리프레시 토큰 블랙리스트 관리
+- Nginx와 Lua 스크립트를 활용한 쿠키 암호화 및 보안 강화
+
+### 아키텍쳐
+  **AWS 서버 구성**
+  ![compact_eks-based_aws_architecture](https://github.com/user-attachments/assets/cfe6d847-699a-45c2-8751-2489874fd60c)
+
+
+
+  **배포 파이프라인**
+  ![cd_with_github_actions_+_ecr_+_eks_+_argo_rollouts_+_eso](https://github.com/user-attachments/assets/ee4e1714-9e3f-4b0f-a575-bbdb3d646fed)
+
+  
+🔗 [프로젝트 링크](https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-)  
+## Naviya
+Naviya는 U+ 개발자 부트캠프의 팀 프로젝트 과제인 **개인 맞춤형 서비스** 와 더불어, **매일 오후 1시 정각부터 10분간, 분당 10만 건**의 대규모 트래픽을 안정적으로 처리해야 하는 도전적인 요구사항을 해결하기 위해 시작되었습니다. 사용자의 MBTI 성향과 독서 취향을 분석하여 맞춤형 도서를 추천하는 핵심 기능과 함께, 이 대규모 동시 요청이 발생하는 선착순 응모 이벤트를 안정적으로 처리하는 것을 기술적 목표로 삼았습니다.
+단순한 추천 시스템을 넘어, 예측 불가능한 대규모 트래픽을 안정적으로 처리하고 비용을 최적화하는 현대적인 클라우드 네이티브 아키텍처를 설계하고 구현하는 데 중점을 두었습니다.
+
+**기간**: 2024.10 ~ 2025.11
+
+
+### 주요 기여
+**동적 가중치 기반 추천 시스템 구현**:
+  - 사용자의 MBTI, 피드백 등을 실시간으로 반영하는 동적 가중치 조정법을 적용하여 개인화 추천 시스템을 구축
+
+**Redis를 이용한 동시성 제어 및 비동기 처리**:
+ - 좋아요/싫어요 등 빈번한 쓰기 요청을 Redis 기반 큐로 비동기 처리하여 DB 경합 및 데드락을 방지하고, 응답 속도를 341ms까지 단축
+
+**서버리스 아키텍처 도입으로 월 운영 비용 47% 절감**:
+- 트래픽 스파이크 구간을 서버리스로 전환, 기존 EC2 증설 모델 대비 월 36만원 이상의 비용을 절감.
+  
+**다중 캐싱 전략으로 DB 부하 99.99% 이상 감소**:
+- CloudFront를 활용한 다중 레이어 캐싱으로 피크타임의 수백만 요청을 사전 처리하여 DB 부하를 최소화.
+  
+**terraform 기반 인프라 자동화 (IaC)**:
+- AWS 인프라 전체를 코드로 관리, 인프라의 재현성과 변경 관리의 효율성을 확보
+
 ## 🛠️ 기술 스택 
 
 ### Cloud & Infrastructure
@@ -37,48 +99,6 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%2311557c.svg?style=for-the-badge&logo=matplotlib&logoColor=white)
-
-##  프로젝트
-#  댕댕어디가 
-
-**댕댕어디가**는 반려동물과 함께 외출할 때의 불편함을 줄이고, 더 많은 활동을 즐길 수 있도록 돕는 서비스입니다. 웹사이트를 통해 반려견과 동반 가능한 장소를 쉽게 검색하고, 다양한 추천 기능을 통해 맞춤형 장소 정보를 제공합니다. 또한, 실시간 **땅따먹기 시스템**으로 사용자들에게 재미와 보상을 제공합니다!
-
-**기간**: 2024.11 ~ 2025.3
-**Stack**: Spring Boot, Java, MySQL, ProxySQL,Redis, docker,Terrafrom,AWS (EKS,ECS, RDS, S3), GitHub Actions ,nginx,lua script
-
-### 주요 기여
-**사용자 맞춤 장소 추천 시스템 최적화**
-
-- 위치 기반 정보와 사용자 선호도를 반영하는 추천 로직 설계
-- 성능 최적화: 294.63ms에서 172.63ms로 약 **41.42%** 성능 개선
-- Redis를 활용한 위치 기반 캐싱
-
-**AWS 서버 구성, 고가용성 및 인프라 자동화(IaC):**
-
-- Terraform을 활용한 AWS 인프라(VPC, EKS, ALB, RDS, ElastiCache 등) 코드 기반 구축 및 관리
-- S3/DynamoDB 기반 Terraform 원격 상태 관리 및 잠금 구성
-- GitHub Actions 기반 Terraform CI/CD 파이프라인 구축 (PR 시 Plan 검증, 환경별 Apply)
-- GitHub Actions를 활용한 애플리케이션 CI/CD 파이프라인 구축
-- 컨테이너 배포 환경의 Amazon EKS 전환 및 CI/CD 기반 카나리 무중단 배포 및 롤백 자동화 구축 (Docker, EKS, Nginx Ingress, GitHub Actions)
-- Proxy SQL을 통한 RDS read/write 분산처리로 대규모 트래픽 및 고가용성 고려
-- Prometheus + Grafana 기반 실시간 모니터링 구축
-
-**시큐리티 & OAuth & 쿠키 관리**:
-- OAuth2 인증 시스템 구현
-- Redis를 이용한 리프레시 토큰 블랙리스트 관리
-- Nginx와 Lua 스크립트를 활용한 쿠키 암호화 및 보안 강화
-
-### 아키텍쳐
-  **AWS 서버 구성**
-  ![compact_eks-based_aws_architecture](https://github.com/user-attachments/assets/cfe6d847-699a-45c2-8751-2489874fd60c)
-
-
-
-  **배포 파이프라인**
-  ![cd_with_github_actions_+_ecr_+_eks_+_argo_rollouts_+_eso](https://github.com/user-attachments/assets/ee4e1714-9e3f-4b0f-a575-bbdb3d646fed)
-
-  
-🔗 [프로젝트 링크](https://github.com/WHERE-ARE-YOU-GOING-DAENG-DAENG/WHERE_ARE_YOU_GOING_DAENG_DAENG_-)  
 
 ## 🏆 백준 프로필
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=sh5017)](https://solved.ac/sh5017/)
