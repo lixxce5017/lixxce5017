@@ -2,9 +2,15 @@
 
 ## Kori (코리)
 
-**Cori**는 언어의 장벽 없는 소통을 위한 **글로벌 실시간 채팅 플랫폼**입니다. 물리적 서버 증설 없이 **단일 서버(Single Instance)** 환경에서 극한의 성능 최적화를 통해, 1,000명 규모의 그룹 채팅 트래픽(Fan-out)을 안정적으로 처리하는 것을 목표 했습니다.
+**Kori**는 언어의 장벽 없는 소통을 위한 **글로벌 실시간 채팅 플랫폼**입니다. 물리적 서버 증설 없이 **단일 서버(Single Instance)** 환경에서 성능 최적화를 통해, 1,000명 규모의 그룹 채팅 트래픽(Fan-out)을 안정적으로 처리하는 것을 목표 했습니다.
 
 **기간**: 2025.07 ~ 2026.03 (현재 진행형)
+
+**플레이스토어**
+https://play.google.com/store/apps/details?id=com.SWYP.kori&hl=ko
+
+**앱스토어**
+https://apps.apple.com/kr/app/kori-korea-foreigners-meet/id6752611613
 
 ### 주요 기여
 
