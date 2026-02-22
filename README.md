@@ -7,11 +7,10 @@
 **기간**: 2025.07 ~ 2026.03 
 
 **플레이스토어**
-https://play.google.com/store/apps/details?id=com.SWYP.kori&hl=ko
+[Play Store](https://play.google.com/store/apps/details?id=com.SWYP.kori&hl=ko)
 
 **앱스토어**
-https://apps.apple.com/kr/app/kori-korea-foreigners-meet/id6752611613
-
+[App Store](https://apps.apple.com/kr/app/kori-korea-foreigners-meet/id6752611613)
 ### 주요 기여
 
 *2025.07 - 2026.03 (9개월)*
