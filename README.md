@@ -1,5 +1,5 @@
 ## My Contributions
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=lixxce5017&show_icons=true&theme=radical)
+[![GitHub Chart](https://ghchart.rshah.org/lixxce5017)](https://github.com/lixxce5017)
 
 ## 프로젝트
 
