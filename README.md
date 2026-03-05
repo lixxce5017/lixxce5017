@@ -1,3 +1,6 @@
+## My Contributions
+[![GitHub Chart](https://ghchart.rshah.org/lixxce5017)](https://github.com/lixxce5017)
+
 ## 프로젝트
 
 ## Kori (코리)
